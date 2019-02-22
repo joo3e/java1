@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="365.0" prefWidth="357.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField id="txt1" layoutX="64.0" layoutY="20.0" />
+      <TextField id="txt2" layoutX="64.0" layoutY="60.0" />
+      <TextField id="txt3" layoutX="64.0" layoutY="100.0" />
+      <TextField id="txt4" layoutX="64.0" layoutY="136.0" />
+      <TextField id="txt5" layoutX="64.0" layoutY="171.0" />
+      <TextField id="txt6" layoutX="64.0" layoutY="206.0" />
+      <TextField id="txt7" layoutX="64.0" layoutY="242.0" />
+      <Label layoutX="8.0" layoutY="24.0" text="아이디" />
+      <Label layoutX="8.0" layoutY="64.0" text="이름" />
+      <Label layoutX="8.0" layoutY="104.0" text="생년" />
+      <Label layoutX="8.0" layoutY="246.0" text="키" />
+      <Label layoutX="8.0" layoutY="210.0" text="mobile2" />
+      <Label layoutX="8.0" layoutY="140.0" text="출신지" />
+      <Label layoutX="8.0" layoutY="175.0" text="mobile1" />
+      <Label layoutX="8.0" layoutY="282.0" text="데뷔년도" />
+      <Button id="check" layoutX="229.0" layoutY="20.0" mnemonicParsing="false" text="중복확인" />
+      <Button id="ereg" layoutX="229.0" layoutY="278.0" mnemonicParsing="false" text="확인" />
+      <DatePicker id="txt8" layoutX="64.0" layoutY="278.0" prefHeight="23.0" prefWidth="138.0" />
+   </children>
+</AnchorPane>

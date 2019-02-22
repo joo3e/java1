@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="reg1" layoutX="130.0" layoutY="261.0" mnemonicParsing="false" text="확인" />
+      <Button id="exit" layoutX="190.0" layoutY="261.0" mnemonicParsing="false" text="취소" />
+      <TextField id="text3" layoutX="111.0" layoutY="163.0" prefHeight="23.0" prefWidth="120.0" />
+      <TextField id="text1" layoutX="110.0" layoutY="78.0" prefHeight="23.0" prefWidth="120.0" />
+      <TextField id="text2" layoutX="110.0" layoutY="122.0" prefHeight="23.0" prefWidth="120.0" />
+      <ComboBox id="combo1" layoutX="111.0" layoutY="33.0" prefHeight="23.0" prefWidth="120.0" />
+      <TextField id="text4" layoutX="111.0" layoutY="207.0" prefHeight="23.0" prefWidth="120.0" />
+      <Label layoutX="43.0" layoutY="82.0" text="품목종류" />
+      <Label layoutX="43.0" layoutY="126.0" text="분류" />
+      <Label layoutX="43.0" layoutY="167.0" text="가격" />
+      <Label layoutX="43.0" layoutY="211.0" text="수량" />
+      <Label layoutX="39.0" layoutY="37.0" text="아이디 선택" />
+   </children>
+</AnchorPane>

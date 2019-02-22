@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="665.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <TabPane prefHeight="665.0" prefWidth="559.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="인원관리">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="636.0" prefWidth="554.0">
+                     <children>
+                        <TableView fx:id="table1" layoutY="31.0" prefHeight="435.0" prefWidth="503.0">
+                          <columns>
+                            <TableColumn prefWidth="50.0" text="아이디" />
+                            <TableColumn prefWidth="50.0" text="이름" />
+                              <TableColumn prefWidth="75.0" text="생년" />
+                              <TableColumn prefWidth="50.0" text="지역" />
+                              <TableColumn prefWidth="55.0" text="mobile1" />
+                              <TableColumn prefWidth="75.0" text="mobile2" />
+                              <TableColumn prefWidth="50.0" text="키" />
+                              <TableColumn prefWidth="92.0" text="데뷔시기" />
+                          </columns>
+                        </TableView>
+                        <TableView fx:id="stable1" layoutY="481.0" prefHeight="155.0" prefWidth="319.0">
+                          <columns>
+                            <TableColumn prefWidth="50.0" text="이름" />
+                            <TableColumn prefWidth="94.0" text="연락처" />
+                              <TableColumn prefWidth="63.0" text="품목" />
+                              <TableColumn prefWidth="50.0" text="개수" />
+                              <TableColumn prefWidth="50.0" text="금액" />
+                          </columns>
+                        </TableView>
+                        <Label layoutY="466.0" text="기부현황" />
+                        <DatePicker fx:id="d1" layoutX="14.0" layoutY="3.0" />
+                        <DatePicker fx:id="d2" layoutX="209.0" layoutY="3.0" />
+                        <Button fx:id="search" layoutX="387.0" layoutY="3.0" mnemonicParsing="false" text="조회" />
+                        <Label layoutX="188.0" layoutY="4.0" text="~">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="all" layoutX="440.0" layoutY="3.0" mnemonicParsing="false" text="전체인원" />
+                        <Button fx:id="add" layoutX="513.0" layoutY="61.0" mnemonicParsing="false" text="추가" />
+                        <Button fx:id="del" layoutX="513.0" layoutY="129.0" mnemonicParsing="false" text="삭제" />
+                        <Button fx:id="edit" layoutX="513.0" layoutY="95.0" mnemonicParsing="false" text="수정" />
+                        <ImageView fitHeight="150.0" fitWidth="171.0" layoutX="332.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="chart" layoutX="507.0" layoutY="3.0" mnemonicParsing="false" text="그래프" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="기부품목">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="table2" layoutY="7.0" prefHeight="492.0" prefWidth="469.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="번호" />
+                            <TableColumn prefWidth="75.0" text="아이디" />
+                              <TableColumn prefWidth="75.0" text="품목종류" />
+                              <TableColumn prefWidth="75.0" text="분류" />
+                              <TableColumn prefWidth="75.0" text="가격" />
+                              <TableColumn prefWidth="75.0" text="수량" />
+                          </columns>
+                        </TableView>
+                        <Button fx:id="edit1" layoutX="487.0" layoutY="56.0" mnemonicParsing="false" text="수정" />
+                        <Button fx:id="del1" layoutX="487.0" layoutY="92.0" mnemonicParsing="false" text="삭제" />
+                        <Button fx:id="add1" layoutX="487.0" layoutY="20.0" mnemonicParsing="false" text="추가" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
